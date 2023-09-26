@@ -18,7 +18,8 @@ h3#noticia{font-size: 20px}
 ul#lista-lado {list-style: none;}
 #lista{width: 170px; float: right; padding-right: 10px; background: #cecece; padding-top: 5px}
 #cartao{float: right;}
-@media(min-width: 768){#conteudo1{width: 100%}}
+@media(max-width: 768px){#conteudo1{width: 100%}}
+@media(max-width: 576px){#conteudo1{width: 100%}}
 aside{float: right;}
 
 
