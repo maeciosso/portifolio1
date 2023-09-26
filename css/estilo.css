@@ -20,6 +20,7 @@ ul#lista-lado {list-style: none;}
 #cartao{float: right;}
 @media(max-width: 768px){#conteudo1{width: 100%}}
 @media(max-width: 576px){#conteudo1{width: 100%}}
+@media(max-width: 0){#conteudo1{width: 100%}}
 aside{float: right;}
 
 
