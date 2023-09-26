@@ -2,7 +2,7 @@
 #foto1{width: 100%}
 aside{width: 40%;}
 h2#eu{text-align: center;}
-#conteudo1{width: 55%;}
+#conteudo1, #cell1, #cell2{width: 55%;}
 #titulo-cont{text-align: center;}
 #legenda1{margin-left: 10px; font-size: 16px}
 #foto2{width: 100%;}
@@ -18,11 +18,9 @@ h3#noticia{font-size: 20px}
 ul#lista-lado {list-style: none;}
 #lista{width: 170px; float: right; padding-right: 10px; background: #cecece; padding-top: 5px}
 #cartao{float: right;}
-@media(max-width: 768px){#conteudo1{width: 100%}}
-@media(max-width: 576px){#conteudo1{width: 100%}}
-@media(max-width: 0){#conteudo1{width: 100%}}
+@media(max-width: 768px){#conteudo1, #cell1, #cell2{width: 100%}}
+@media(max-width: 576px){#conteudo1, #cell1, #cell2{width: 100%}}
 aside{float: right;}
-
-
+#cellConteudo{text-align: center;}
 
 
