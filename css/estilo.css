@@ -16,7 +16,7 @@ h3.noticia{font-size: 20px}
 ul#lista-lado {list-style: none;}
 #lista{width: 170px; float: right; padding-right: 10px; background: #cecece; padding-top: 5px}
 #cartao{float: right;}
-@media(max-width: 768px){#conteudo1, #cell1, #cell2, #med1, #med2, #comp1, #comp2{width: 100%; text-align: center;}}
+@media(max-width: 768px){#conteudo1{width: 60%; text-align: center;} #cell1, #cell2, #med1, #med2, #comp1, #comp2{width: 100%;}}
 @media(max-width: 576px){#conteudo1, #cell1, #cell2, #med1, #med2, #comp1, #comp2{width: 100%; text-align: center;}}
 aside{float: right;}
 #cellConteudo{text-align: center;}
